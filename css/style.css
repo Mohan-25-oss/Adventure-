@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ====Header Start===== */
+header{
+    color: white;
+    align-items: center;
+    padding: 20px 50px;
+    background-image: url(../images/dawn.jpg);
+    background-color:#0000008c;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{}
+.logo h3{
+    font-size: 25px;
+    margin: 0px;
+    text-transform: capitalize;
+}
+.logo h3 span{
+    font-weight: 150;
+}
+
+nav{}
+nav li{
+    display: inline;
+    
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 24px;
+}
+/* =========Header End ======= */
+
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+}
+.banner h3{
+    font-size: 30px;
+    font-style: italic;
+}
+.banner h3 span{}
+.banner h1{
+    font-size: 70px;
+
+}
+.banner button{
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 50px;
+}
+
+
+
