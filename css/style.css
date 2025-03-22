@@ -27,6 +27,10 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 90%;
 }
 .logo{}
 .logo h3{
