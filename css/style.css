@@ -202,17 +202,21 @@ footer{
     color: white;
     background-color: black;
 }
-
-
-
-
+.fab{
+    margin: 0 10px;
+    font-size: 20px;
+    background-color: rgb(67, 16, 195);
+    padding: 10px;
+}
+/* pa */
 /* FOR Media Query */
 /* Extra small devices (phones,0=> 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 667px) {
     header{
         width: 100%;
         background-color: red;
     }
+
     .event{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
