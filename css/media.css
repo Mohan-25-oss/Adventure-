@@ -1,0 +1,476 @@
+/* FOR Media Query */
+/* Extra small devices (phones (375px),0=> 668px and down) */
+@media only screen and (max-width: 668px) {
+    /* ====Header Start===== */
+    header{
+        padding: 10px 15px;
+        background-image: url(../images/dawn.jpg);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        display: block;
+    }
+    .logo{
+    }
+    .logo h3{
+        font-size: 20px;
+        text-align: center;
+    }
+    nav{}
+    nav ul{
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    /* =========Header End ======= */
+    /* =====Banner Start========= */
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner h3{
+        font-size: 25px;
+    }
+    .banner span{
+        height: 4px;
+        width: 150px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .banner button{
+        padding: 10px 20px;
+    }
+    /* =====Banner End========= */
+    /* for upcoming Event section */
+    .upcoming-event{
+        text-align: center;
+        margin: 50px 10px;
+    }
+    .upcoming-event h2{
+        font-size: 30px;
+        margin-bottom: 0px;
+        text-transform: capitalize;
+    }
+    .upcoming-event span{
+        height: 4px;
+        width: 150px;
+    } 
+    .event{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .event-item{}
+    .event-item img{
+        height: 250px;
+    }
+    .event-item p{}
+    .event-item a{
+        font-size: 20px;
+        color: red;
+        text-decoration: none;
+        letter-spacing: 2px;
+    }
+    /* =======for Upcoming Event End====== */
+    /* =======For Explore======== */
+    .Explore{
+        padding: 70px 20px;
+        display: block;
+    }
+    .explore-item{
+        width: 100%;
+    }
+    .explore-item h1{
+        font-size: 35px;
+        margin: 0 0 10px 0;
+    }
+    .explore-item span{
+        height: 4px;
+        width: 150px;
+    }
+    .explore-item p{
+        margin: 20px 0;
+    }
+    .explore-item a{
+        font-size: 18px;
+        font-weight: 500;
+    }
+    /* =======explore end======= */
+    /* =====For Tour start====== */
+    .tour{
+        padding: 60px 20px;
+        display: block;
+        grid-template-columns: 450px repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .tour-item h5{
+        font-size: 20px;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .img-one{
+        height: 200px;
+        margin: 0 0 15px;
+    }
+    .img-two{
+        height: 200px;
+        margin: 0 0 15px 0;
+    }
+    /* =======For Tour End====== */
+    /* ======For Footer start====== */
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        margin: 10px 10px;
+        font-size: 20px;
+        background-color: rgb(67, 16, 195);
+        padding: 10px;
+    }
+    /* =======For Footer End====== */
+    }
+    
+    /* Medium devices (landscape tablets, 669px and up to 767px) */
+    @media only screen and (min-width: 669px) and (max-width: 767px) {
+            /* ====Header Start===== */
+    header{
+        padding: 12px 15px;
+        background-image: url(../images/dawn.jpg);
+        background-blend-mode: multiply;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .navbar{
+        display: block;
+    }
+    .logo{
+    }
+    .logo h3{
+        font-size: 18px;
+        text-align: center;
+    }
+    nav{}
+    nav ul{
+        padding: 0;
+        text-align: center;
+    }
+    nav ul li{
+        margin: 5px;
+    }
+    /* =========Header End ======= */
+    /* =====Banner Start========= */
+    .banner{
+        padding: 40px 0px;
+    }
+    .banner h3{
+        font-size: 27px;
+    }
+    .banner span{
+        height: 4px;
+        width: 150px;
+    }
+    .banner h1{
+        font-size: 45px;
+    }
+    .banner button{
+        padding: 12px 45px;
+    }
+    /* for upcoming Event section */
+    .upcoming-event{
+        text-align: center;
+        margin: 50px 10px;
+    }
+    .upcoming-event h2{
+        font-size: 30px;
+    }
+    .upcoming-event span{
+        height: 4px;
+        width: 150px;
+    } 
+    .event{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .event-item img{
+        height: 250px;
+    }
+    /* =======for Upcoming Event End====== */
+    /* =======For Explore======== */
+    .Explore{
+        padding: 100px;
+        display: flex;
+    }
+    .explore-item{
+        width: 60%;
+    }
+    .explore-item h1{
+        font-size: 40px;
+        margin: 0 0 2px 0;
+    }
+    .explore-item span{
+        display: inline-block;
+        background-color: red;
+        height: 5px;
+        width: 240px;
+        border-radius: 5px;
+    }
+    .explore-item p{
+        margin: 30px 0;
+    }
+    .explore-item a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: 500;
+    }
+    /* =====For Tour start====== */
+    .tour{
+        padding: 60px 20px;
+        display: block;
+        grid-template-columns: 450px repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .tour-item{
+        text-align: center;
+    }
+    .tour-item h5{
+        font-size: 40px;
+        text-align: center;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .img-one{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    .img-two{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    /* =======For Tour End====== */
+    /* ======For Footer start====== */
+    footer{
+        padding: 50px 20px;
+    }
+    .fab{
+        margin: 10px 10px;
+        font-size: 20px;
+        background-color: rgb(67, 16, 195);
+        padding: 10px;
+    }
+    /* =======For Footer End====== */
+    }
+    
+    /* Large tablet devices/notebooks/small laptops (768px and up to 991px) */
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        
+    /* ====Header Start===== */
+    header{
+        padding: 15px 40px;
+    }
+    .logo h3{
+        font-size: 22px;
+    }
+    nav ul li{
+        margin: 0 0 0 30px;
+    }
+    
+    /* =========Header End ======= */
+    
+    .banner{
+        padding: 80px 0px;
+    }
+    .banner h3{
+        font-size: 25px;
+    }
+    .banner h1{
+        font-size: 60px;
+    }
+    .banner button{
+        padding: 12px 25px;
+    }
+    /* for upcoming Event section */
+    .upcoming-event{
+        text-align: center;
+        margin: 50px;
+    }
+    .upcoming-event h2{
+        font-size: 35px;
+    }
+    .upcoming-event span{
+        height: 4px;
+        width: 150px;
+    } 
+    .event{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .event-item img{
+        height: 270px;
+    }
+    /* =======For Explore======== */
+    .Explore{
+        padding: 70px;
+        display: flex;
+    }
+    .explore-item{
+        width: 50%;
+    }
+    .explore-item h1{
+        font-size: 50px;
+        margin: 0 0 10px 0;
+    }
+    .explore-item span{
+        display: inline-block;
+        background-color: red;
+        height: 5px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .explore-item p{
+        margin: 30px 0;
+    }
+    .explore-item a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    /* =====For Tour start====== */
+    .tour{
+        padding: 60px 20px;
+        display: block;
+        grid-template-columns: 450px repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .tour-item{
+        text-align: center;
+    }
+    .tour-item h5{
+        font-size: 40px;
+        text-align: center;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .img-one{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    .img-two{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    /* =======For Tour End====== */
+    }
+    
+    /* Small laptops and 17" devices (992px and up to 1023px) */
+    @media only screen and (min-width: 992px) and (max-width: 1023px) {
+    
+    /* ====Header Start===== */
+    
+    nav ul li{
+        display: inline;
+        margin: 0 0 0 24px;
+    }
+    
+    /* =========Header End ======= */
+    .banner h1{
+        font-size: 65px;
+    }
+    /* for upcoming Event section */
+    .upcoming-event{
+        text-align: center;
+        margin: 50px 80px;
+    }
+    .upcoming-event h2{
+        font-size: 35px;
+    }
+    .upcoming-event span{
+        height: 4px;
+        width: 150px;
+    } 
+    .event{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .event-item img{
+        height: 280px;
+    }
+    /* =======For Explore======== */
+    .Explore{
+        padding: 70px;
+        display: flex;
+    }
+    .explore-item{
+        width: 50%;
+    }
+    .explore-item h1{
+        font-size: 60px;
+        margin: 0 0 10px 0;
+    }
+    .explore-item span{
+        display: inline-block;
+        background-color: red;
+        height: 5px;
+        width: 200px;
+        border-radius: 5px;
+    }
+    .explore-item p{
+        margin: 30px 0;
+    }
+    .explore-item a{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+        font-weight: 600;
+    }
+    /* =====For Tour start====== */
+    .tour{
+        padding: 60px 20px;
+        display: block;
+        grid-template-columns: 450px repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .tour-item{
+        text-align: center;
+    }
+    .tour-item h5{
+        font-size: 40px;
+        text-align: center;
+    }
+    .tour-item a{
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    .img-one{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    .img-two{
+        height: 380px;
+        margin: 10px 5px;
+    }
+    /* =======For Tour End====== */
+    }
+    
+    /* Large laptops and desktops (1024px and up to 1400px) */
+    @media only screen and (min-width: 1024px) and (max-width: 1400px) {
+        
+    }
+    
+    /* Large laptops and desktops (1441px and up to 1600px) */
+    @media only screen and (min-width: 1441px) and (max-width: 1600px) {
+        
+    }
