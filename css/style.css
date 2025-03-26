@@ -205,7 +205,6 @@ footer{
     background-color: rgb(67, 16, 195);
     padding: 20px;
 }
-/* pa */
 /* FOR Media Query */
 /* Extra small devices (phones,0=> 667px and down) */
 @media only screen and (max-width: 667px) {
@@ -255,11 +254,54 @@ nav ul li{
 }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+/* Medium devices (landscape tablets, 668px and up to 767px) */
+@media only screen and (min-width: 668px) and (max-width: 768px) {
+    	/* ====Header Start===== */
+header{
+    padding: 12px 15px;
+    background-image: url(../images/dawn.jpg);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    display: block;
+}
+.logo{
+}
+.logo h3{
+    font-size: 18px;
+    text-align: center;
+}
+nav{}
+nav ul{
+    padding: 0;
+    text-align: center;
+}
+nav ul li{
+    margin: 5px;
+}
+/* =========Header End ======= */
+/* =====Banner Start========= */
+.banner{
+    padding: 40px 0px;
+}
+.banner h3{
+    font-size: 27px;
+}
+.banner span{
+    height: 4px;
+    width: 150px;
+}
+.banner h1{
+    font-size: 45px;
+}
+.banner button{
+    padding: 12px 45px;
+}
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
