@@ -27,6 +27,13 @@ header{
 .navbar{
     display: flex;
     justify-content: space-between;
+    overflow: hidden;
+    background-color: #15151688;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    left: 0;
+    padding-left: 20px;
+    width: 100%; /* Full width */
 }
 .logo{
 }
@@ -43,7 +50,11 @@ header{
     font-weight: 500;
 }
 nav{}
-nav ul{}
+nav ul{
+    margin: 0 50px 0 0;
+    padding-top: 15px;
+    
+}
 nav ul li{
     display: inline;
     margin: 24px;
