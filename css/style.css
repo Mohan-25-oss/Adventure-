@@ -83,7 +83,7 @@ nav ul li a{
     color: white;
     border-radius: 50px;
 }
-/* for Event section */
+/* for upcoming Event section */
 .upcoming-event{
     text-align: center;
     margin: 50px 150px;
@@ -123,6 +123,7 @@ nav ul li a{
     text-decoration: none;
     letter-spacing: 2px;
 }
+/* =======for Upcoming Event End====== */
 /* =======For Explore======== */
 .explore-main{
     background-image: url(../images/father.jpg);
@@ -252,6 +253,45 @@ nav ul li{
 .banner button{
     padding: 10px 20px;
 }
+/* =====Banner End========= */
+/* for upcoming Event section */
+.upcoming-event{
+    text-align: center;
+    margin: 50px 10px;
+}
+.upcoming-event h2{
+    font-size: 30px;
+    margin-bottom: 0px;
+    text-transform: capitalize;
+}
+.upcoming-event span{
+    height: 4px;
+    width: 150px;
+} 
+.event{
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    justify-content: space-between;
+    margin: 30px 0 0 0;
+}
+.event-item{}
+.event-item img{
+    height: 250px;
+    border-radius: 10px;
+}
+.event-item h4{
+    font-size: 22px;
+    margin: 10px 0 0 0;
+}
+.event-item p{}
+.event-item a{
+    font-size: 20px;
+    color: red;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+/* =======for Upcoming Event End====== */
 }
 
 
@@ -303,8 +343,58 @@ nav ul li{
 }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+/* Large tablet devices/notebooks/small laptops (769px and up to 99px) */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+    
+/* ====Header Start===== */
+header{
+    padding: 15px 40px;
+}
+.logo h3{
+    font-size: 22px;
+}
+nav ul li{
+    margin: 0 0 0 30px;
+}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+/* =========Header End ======= */
+
+.banner{
+    padding: 80px 0px;
+}
+.banner h3{
+    font-size: 25px;
+}
+.banner h1{
+    font-size: 60px;
+}
+.banner button{
+    padding: 12px 25px;
+}
+}
+
+/* Small laptops and 17" devices (993px and up to 1024px) */
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+
+/* ====Header Start===== */
+
+nav ul li{
+    display: inline;
+    margin: 0 0 0 24px;
+}
+
+/* =========Header End ======= */
+.banner h1{
+    font-size: 65px;
+}
+}
+
+/* Large laptops and desktops (1025px and up to 1400px) */
+@media only screen and (min-width: 1025px) and (max-width: 1400px) {
+    
+}
+
+/* Large laptops and desktops (1025px and up to 1400px) */
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+    
+}
