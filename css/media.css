@@ -127,13 +127,9 @@
     /* =======For Tour End====== */
     /* ======For Footer start====== */
     footer{
-        padding: 50px 20px;
-    }
-    .fab{
-        margin: 10px 10px;
-        font-size: 20px;
-        background-color: rgb(67, 16, 195);
-        padding: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     /* =======For Footer End====== */
     }
