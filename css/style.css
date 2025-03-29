@@ -208,7 +208,7 @@ header{
 footer{
     padding: 20px;
     text-align: center;
-    color: #000000;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: rgba(250, 201, 368, 1.2) 0px -5px 15px 0px;
+    background-color: #f0f8ff00;
 }
 /* =======For Footer End====== */
