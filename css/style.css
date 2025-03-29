@@ -184,7 +184,9 @@ header{
     grid-template-columns: 450px repeat(2, 1fr);
     grid-gap: 30px;
 }
-.tour-item{}
+.tour-item{
+    max-width: 100%;
+}
 .tour-item h5{
     font-size: 25px;
     margin: 0 0 0 0;
@@ -206,6 +208,7 @@ header{
 footer{
     padding: 20px;
     text-align: center;
+    color: #000000;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 /* =======For Footer End====== */
