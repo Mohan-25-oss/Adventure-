@@ -3,8 +3,9 @@
 @media only screen and (max-width: 668px) {
     /* ====Header Start===== */
     header{
-        padding: 10px 15px;
+        align-items: center;
         background-image: url(../images/dawn.jpg);
+        background-color: #000000c2;
         background-blend-mode: multiply;
         background-repeat: no-repeat;
         background-size: cover;
@@ -260,13 +261,9 @@
     /* =======For Tour End====== */
     /* ======For Footer start====== */
     footer{
-        padding: 50px 20px;
-    }
-    .fab{
-        margin: 10px 10px;
-        font-size: 20px;
-        background-color: rgb(67, 16, 195);
-        padding: 10px;
+        padding: 20px;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     /* =======For Footer End====== */
     }
